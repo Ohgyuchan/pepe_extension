@@ -1,5 +1,8 @@
-let imgs = document.querySelectorAll('img');
+setInterval(() => {
+    let imgs = document.querySelectorAll("img");
 
-imgs.forEach((a, i) => {
-    a.src = 'https://raw.githubusercontent.com/Ohgyuchan/pepe_extension/main/pepe.png'
-})
+    imgs.forEach((a, i) => {
+        a.src =
+            "https://raw.githubusercontent.com/Ohgyuchan/pepe_extension/main/pepe.png";
+    });
+}, 500);
