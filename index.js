@@ -3,7 +3,7 @@ setInterval(() => {
     let h_3s = document.querySelectorAll("h3");
 
     h_3s.forEach((h, i) => {
-        h.textContent = "승현이 바보";
+        h.textContent = "두형이는 바보";
     });
 
     imgs.forEach((a, i) => {
